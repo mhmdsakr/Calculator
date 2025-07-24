@@ -1,0 +1,90 @@
+body{
+    background-color: #1a1a1a;
+    
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    padding: 2rem;
+}
+.body{
+    width: 22rem;
+    height: 95%;
+    border-radius: 20px;
+    border: solid 1px gray;
+    background-color: black;
+}
+.body .show{
+    width: 100%;
+    height: 30%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.body .show p{
+    font-size: 5rem;
+    color: white;
+    padding-right: 1rem;
+}
+.body .buttons{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+}
+.body .buttons .button1{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+.body .buttons .button1 .button{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.zero{
+    width: 10rem;
+    height: 4.5rem;
+    border-radius: 50px;
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.gray{
+    background-color: gray;
+}
+.orange{
+    background-color: orange;
+}
+.dark{
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.button:active,
+.zero:active {
+    transform: scale(0.95);
+}
+
+.active-operator {
+    background-color: white !important;
+    color: orange !important;
+}
